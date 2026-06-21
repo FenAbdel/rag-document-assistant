@@ -1,0 +1,24 @@
+[
+  {
+    "id": "q1",
+    "question": "What is this document about?",
+    "source_filter": "Abdeljalil_Fenniri_CV_Ingenieur_Data_IA_Appliquee.pdf",
+    "expected_source": "Abdeljalil_Fenniri_CV_Ingenieur_Data_IA_Appliquee.pdf",
+    "expected_keywords": ["data", "AI", "Power BI"]
+  },
+  {
+    "id": "q2",
+    "question": "What are the main technical skills mentioned?",
+    "source_filter": "Abdeljalil_Fenniri_CV_Ingenieur_Data_IA_Appliquee.pdf",
+    "expected_source": "Abdeljalil_Fenniri_CV_Ingenieur_Data_IA_Appliquee.pdf",
+    "expected_keywords": ["Python", "SQL", "Power BI"]
+  },
+  {
+    "id": "q3",
+    "question": "Which skills are related to artificial intelligence?",
+    "source_filter": "Abdeljalil_Fenniri_CV_Ingenieur_Data_IA_Appliquee.pdf",
+    "expected_source": "Abdeljalil_Fenniri_CV_Ingenieur_Data_IA_Appliquee.pdf",
+    "expected_keywords": ["RAG", "LangChain", "OpenAI"]
+  }
+]
+

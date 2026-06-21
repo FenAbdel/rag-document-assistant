@@ -1,0 +1,7 @@
+pymupdf
+langchain-text-splitters<0.3
+chromadb
+openai
+python-dotenv
+pytest
+streamlit==1.40.2
