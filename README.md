@@ -324,39 +324,3 @@ python -m evaluation.run_retrieval_eval --multi-query
 ```
 
 This evaluation may call the OpenAI API because it uses the real retrieval pipeline.
-
-## Current limitations
-
-This project is a local MVP and has some limitations:
-
-- PDF support only
-- no authentication
-- no multi-user support
-- no production database
-- no deployment pipeline yet
-- no reranker yet
-- no hybrid search yet
-- no OCR for scanned PDFs
-- no advanced observability or monitoring
-
-## Possible improvements
-
-Future improvements could include:
-
-- DOCX, TXT, and Markdown support
-- OCR for scanned documents
-- hybrid search combining vector search and keyword search
-- reranking for better retrieval precision
-- Docker setup
-- FastAPI backend
-- user authentication
-- cloud deployment
-- evaluation dashboard
-- local embedding model option
-- monitoring of retrieval quality and answer quality
-
-## Project positioning
-
-This project is designed as a junior Data/AI engineering portfolio project.
-
-It demonstrates the ability to build a complete RAG application with clean architecture, document ingestion, vector search, LLM-based generation, citations, memory, optional retrieval improvement, evaluation, and a simple user interface.
